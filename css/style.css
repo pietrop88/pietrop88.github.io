@@ -1,18 +1,19 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?cx1noh');
-  src:  url('../fonts/icomoon.eot?cx1noh#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?cx1noh') format('truetype'),
-    url('../fonts/icomoon.woff?cx1noh') format('woff'),
-    url('../fonts/icomoon.svg?cx1noh#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?188x3h');
+  src:  url('../fonts/icomoon.eot?188x3h#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?188x3h') format('truetype'),
+    url('../fonts/icomoon.woff?188x3h') format('woff'),
+    url('../fonts/icomoon.svg?188x3h#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,27 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bitbucket:before {
-  content: "\e904";
-}
-.icon-linkedin-square:before {
-  content: "\e903";
-}
-.icon-gitlab:before {
+.icon-linkedin:before {
   content: "\e900";
 }
 .icon-github:before {
   content: "\e901";
 }
-.icon-cloud:before {
+.icon-mastodon:before {
   content: "\e902";
 }
-.icon-github2:before {
-  content: "\eab0";
-}
-.icon-git:before {
-  content: "\eae7";
-}
+
 
 html{
     height: 100%;
